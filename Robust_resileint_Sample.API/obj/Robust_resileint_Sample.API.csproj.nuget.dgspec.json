@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tayya\\Desktop\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tayya\\Desktop\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tayya\\Desktop\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API.csproj",
+        "projectName": "Robust_resileint_Sample.API",
+        "projectPath": "C:\\Users\\tayya\\Desktop\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API.csproj",
+        "packagesPath": "C:\\Users\\tayya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tayya\\Desktop\\Robust_resileint_Sample.API\\Robust_resileint_Sample.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tayya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Polly": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
